@@ -29,5 +29,13 @@ addNumbers(5, 10); // Returns 15
 
 
 
+//联合类型
+
+let  str1 : string | number = 'hello';
+
+let mixed: (string | number)[] = ['hello', 42, 'world'];
+
+str1.toString(); // Valid, as str is a string
+
 
 
